@@ -55,8 +55,8 @@ ibm-pem-standard-vbudi:
       pullSecret: "ibm-entitlement-key"
 
   dbsetup:
-    enabled: true  #If it is first installation specify the values true
-    upgrade: false #If it is upgrade Specify the values to true
+    enabled: false  #If it is first installation specify the values true
+    upgrade: true #If it is upgrade Specify the values to true
     resources:
       requests:
         memory: "2Gi"
